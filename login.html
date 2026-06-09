@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classic Responsive Page</title>
+    <!-- Bootstrap 5 CSS CDN -->
+    <link href="https://jsdelivr.net" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Responsive Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="login.html">MyWebsite</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="login.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Classic Hero Section -->
+    <header class="bg-light py-5 border-bottom">
+        <div class="container my-5 text-center">
+            <h1 class="display-4 fw-bold">Welcome to a Classic Page</h1>
+            <p class="lead text-muted">A simple, clean, and fully responsive landing page built with Bootstrap.</p>
+            <a href="#" class="btn btn-primary btn-lg mt-3">Get Started Today</a>
+        </div>
+    </header>
+
+    <!-- Responsive Grid Section -->
+    <main class="py-5">
+        <div class="container">
+            <div class="row text-center g-4">
+                <!-- Column 1 -->
+                <div class="col-md-4">
+                    <div class="p-3 border rounded bg-white shadow-sm">
+                        <h3 class="h5 fw-bold">Responsive Design</h3>
+                        <p class="text-muted">Layouts adjust dynamically across mobile, tablet, and desktop screens.</p>
+                    </div>
+                </div>
+                <!-- Column 2 -->
+                <div class="col-md-4">
+                    <div class="p-3 border rounded bg-white shadow-sm">
+                        <h3 class="h5 fw-bold">Easy Customization</h3>
+                        <p class="text-muted">Modify layout elements seamlessly using native utility classes.</p>
+                    </div>
+                </div>
+                <!-- Column 3 -->
+                <div class="col-md-4">
+                    <div class="p-3 border rounded bg-white shadow-sm">
+                        <h3 class="h5 fw-bold">Fast Loading</h3>
+                        <p class="text-muted">Optimized styles guarantee highly efficient load performance.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4 border-top">
+        <div class="container">
+            <p class="mb-0 small">&copy; 2026 MyWebsite. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JavaScript Bundle CDN -->
+    <script src="https://jsdelivr.net"></script>
+</body>
+</html>
